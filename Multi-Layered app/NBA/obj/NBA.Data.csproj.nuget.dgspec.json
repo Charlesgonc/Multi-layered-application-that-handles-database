@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj": {}
+    "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\NBA.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj": {
+    "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\NBA.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\NBA.Data.csproj",
         "projectName": "NBA.Data",
-        "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj",
+        "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\NBA.Data.csproj",
         "packagesPath": "C:\\Users\\Charl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\obj\\",
+        "outputPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

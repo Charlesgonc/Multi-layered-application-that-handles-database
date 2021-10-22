@@ -7771,11 +7771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Program\\NBA.Program.csproj",
+      "projectUniqueName": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Program\\NBA.Program.csproj",
       "projectName": "NBA.Program",
-      "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Program\\NBA.Program.csproj",
+      "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Program\\NBA.Program.csproj",
       "packagesPath": "C:\\Users\\Charl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Program\\obj\\",
+      "outputPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Program\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7795,14 +7795,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Logic\\NBA.Logic.csproj": {
-              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Logic\\NBA.Logic.csproj"
+            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Logic\\NBA.Logic.csproj": {
+              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Logic\\NBA.Logic.csproj"
             },
-            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Repository\\NBA.Repository.csproj": {
-              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Repository\\NBA.Repository.csproj"
+            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Repository\\NBA.Repository.csproj": {
+              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA.Repository\\NBA.Repository.csproj"
             },
-            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj": {
-              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj"
+            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\NBA.Data.csproj": {
+              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-layered app\\NBA\\NBA.Data.csproj"
             }
           }
         }
