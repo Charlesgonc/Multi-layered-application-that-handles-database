@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjP59J69lw+r70ovOibn9x1nlvw2Fif/DZSkm+7E6Vp0LM1rr9CujHK2rjL4/3s9eJqmxSojN+fvuvlcL3pFWg==",
+  "dgSpecHash": "ACKOeq9j3UdOdwb5pU99IN2zGVZ2tP/DPuxVcjtxOnNh3b959xHpxTOTsuKLdakc4aJmXoa2r6XadwgeJ0wfVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA.Program\\NBA.Program.csproj",
+  "projectFilePath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Program\\NBA.Program.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charl\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Charl\\.nuget\\packages\\consolemenu-simple\\2.4.0\\consolemenu-simple.2.4.0.nupkg.sha512",

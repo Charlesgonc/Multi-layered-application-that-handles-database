@@ -7706,11 +7706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA.Repository\\NBA.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Repository\\NBA.Repository.csproj",
       "projectName": "NBA.Repository",
-      "projectPath": "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA.Repository\\NBA.Repository.csproj",
+      "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Repository\\NBA.Repository.csproj",
       "packagesPath": "C:\\Users\\Charl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7730,8 +7730,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA\\NBA.Data.csproj": {
-              "projectPath": "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA\\NBA.Data.csproj"
+            "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj": {
+              "projectPath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj"
             }
           }
         }

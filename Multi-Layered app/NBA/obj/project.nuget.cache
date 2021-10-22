@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hPFi08uVydqp1lbzbPASoBYHOpMg53GrzMM80sLMV02fac0466qT1UncYPSSqw3jftvW5KxvJomJMcwBTie/WQ==",
+  "dgSpecHash": "QTcDCQTb8NrbU64wl2qDJdGNAcUlG153ujP6BACPUwSE8lEUwZr9IF7X2Pg3gvg1E6nEIXb7zc+IN1fjbnXayw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Charl\\OneDrive\\Asztali gép\\Prog4\\PROG3-HOME-PROJECT\\OENIK_PROG3_2020_2_DWFD1I\\OENIK_PROG3_2020_2_DWFD1I\\NBA\\NBA.Data.csproj",
+  "projectFilePath": "C:\\Users\\Charl\\OneDrive\\Documents\\GitHub\\Multi-layered-application-that-handles-database\\Multi-Layered app\\NBA\\NBA.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Charl\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Charl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
