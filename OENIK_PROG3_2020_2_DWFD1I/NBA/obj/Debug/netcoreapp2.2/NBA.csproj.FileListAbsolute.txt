@@ -1,0 +1,27 @@
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.deps.json
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.runtimeconfig.json
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.runtimeconfig.dev.json
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.dll
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.csprojAssemblyReference.cache
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.csproj.CoreCompileInputs.cache
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.AssemblyInfoInputs.cache
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.AssemblyInfo.cs
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.pdb
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.dll
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.pdb
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBAdb.mdf
+C:\Users\Charl\OneDrive\Asztali gép\Advanced development techniques\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBAdb_log.ldf
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBAdb.mdf
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBAdb_log.ldf
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.deps.json
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.runtimeconfig.json
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.runtimeconfig.dev.json
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.dll
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\bin\Debug\netcoreapp2.2\NBA.pdb
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.csprojAssemblyReference.cache
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.csproj.CoreCompileInputs.cache
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.AssemblyInfoInputs.cache
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.AssemblyInfo.cs
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.dll
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.pdb
+C:\Users\Charl\OneDrive\Asztali gép\OENIK_PROG3_2020_2_DWFD1I\OENIK_PROG3_2020_2_DWFD1I\NBA\obj\Debug\netcoreapp2.2\NBA.genruntimeconfig.cache

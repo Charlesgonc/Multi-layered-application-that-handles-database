@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBA.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:NBA.Logic.AvgPLayerHeight">
+            <summary>
+            The class that expresses the calculation of the average height of a team.
+            </summary>
+        </member>
+        <member name="P:NBA.Logic.AvgPLayerHeight.TeamName">
+            <summary>
+            Gets or Sets the property name of the team.
+            </summary>
+        </member>
+        <member name="P:NBA.Logic.AvgPLayerHeight.AveragePlayerHeight">
+            <summary>
+            Gets or Sets the property where we will store the height average of the team.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.AvgPLayerHeight.Equals(System.Object)">
+            <summary>
+            The ovveridden equals method so that we can compare the AvgPLayerHeight by their contents.
+            </summary>
+            <param name="obj">The object that we want to compaare with.</param>
+            <returns>A boolean result on the result of the equality.</returns>
+        </member>
+        <member name="M:NBA.Logic.AvgPLayerHeight.GetHashCode">
+            <summary>
+            The overriden GetHAshCode in order to be able to use a specific number of the instance for hash calculations.
+            </summary>
+            <returns>A specific code for the class.</returns>
+        </member>
+        <member name="M:NBA.Logic.AvgPLayerHeight.ToString">
+            <summary>
+            Writes the content of the class as a nicely formatted string.
+            </summary>
+            <returns>the string that we want to see as a result of the call for the class instance.</returns>
+        </member>
+        <member name="T:NBA.Logic.AvgPlayerSalary">
+            <summary>
+            The class that expresses the calculation of the average salary of the players belonguing to each conference.
+            </summary>
+        </member>
+        <member name="P:NBA.Logic.AvgPlayerSalary.Conference">
+            <summary>
+            Gets or Sets the property conference used to group the salary of thr players.
+            </summary>
+        </member>
+        <member name="P:NBA.Logic.AvgPlayerSalary.AveragePlayerSal">
+            <summary>
+            Gets or Sets the property to store the average of the salary of the players.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.AvgPlayerSalary.Equals(System.Object)">
+            <summary>
+            The overidden equals method so that we can compare the AvgPlayerSalary by their contents.
+            </summary>
+            <param name="obj">The object that we want to compaare with.</param>
+            <returns>A boolean result on the result of the equality.</returns>
+        </member>
+        <member name="M:NBA.Logic.AvgPlayerSalary.GetHashCode">
+            <summary>
+            The overriden GetHAshCode in order to be able to use a specific number of the instance for hash calculations.
+            </summary>
+            <returns>A specific code for the class.</returns>
+        </member>
+        <member name="M:NBA.Logic.AvgPlayerSalary.ToString">
+            <summary>
+            Writes the content of the class as a nicely formatted string.
+            </summary>
+            <returns>the string that we want to see as a result of the call for the class instance.</returns>
+        </member>
+        <member name="T:NBA.Logic.FGAveragesResult">
+            <summary>
+            The class that expresses the calculation of the field goal that we want to get for a determined team.
+            </summary>
+        </member>
+        <member name="P:NBA.Logic.FGAveragesResult.TeamName">
+            <summary>
+            Gets or Sets the name of the team.
+            </summary>
+        </member>
+        <member name="P:NBA.Logic.FGAveragesResult.AverageFG">
+            <summary>
+            Gets or Sets the property where we will store the average field goal of the team.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.FGAveragesResult.Equals(System.Object)">
+            <summary>
+            Checks the equality of the FGAverageResults.
+            </summary>
+            <param name="obj">the field goal result that we want to compare to.</param>
+            <returns>A boolean result on the result of the equality.</returns>
+        </member>
+        <member name="M:NBA.Logic.FGAveragesResult.GetHashCode">
+            <summary>
+            gets the hash code of this field goal average result that can be used for the calculation.
+            </summary>
+            <returns>an integer that can be used for the avg calculations.</returns>
+        </member>
+        <member name="M:NBA.Logic.FGAveragesResult.ToString">
+            <summary>
+            Puts the content of the class into string containing the name of the team and the avg fg of the team.
+            </summary>
+            <returns>the team name and the average FG of the team whenever the class is called.</returns>
+        </member>
+        <member name="T:NBA.Logic.FinancialOfficerLogic">
+            <summary>
+            Accesses and implements some of the CRUD and NON-CRUD methods from the repository.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.#ctor(NBA.Repository.IPLayerRepository,NBA.Repository.ICoachRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Logic.FinancialOfficerLogic"/> class.
+            Will allow us to call the methods of the Player repository by creating a IPlayerRepository instance.
+            </summary>
+            <param name="playerRepo">The player repository that will be used for the logic calculations.</param>
+            <param name="coachRepo">The Coach repository that will be used for the logic calculations.</param>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.GetAvgPlayerSalaries">
+            <summary>
+            The implementation of the NON-CRUD method to get the average of the salaries per conference.
+            </summary>
+            <returns>The list of the average pf the players salaries per conference.</returns>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.GetAvgPlayerSalariesAsync">
+            <summary>
+            The async implementation of the NON-CRUD method to get the average of the salaries per conference.
+            </summary>
+            <returns>The list of tasks containing the average of the salaries per conference.</returns>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.ChangeCoachSalary(System.Int32,System.Int32)">
+            <summary>
+            The implementation of the CRUD method to update the salary of the coach.
+            </summary>
+            <param name="id">The id of the coach we want to change the salary.</param>
+            <param name="salary">The value of the salary we want to change to.</param>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.ChangePlayerSalary(System.Int32,System.Int32)">
+            <summary>
+            The implementation of the CRUD method to update the salary of the player.
+            </summary>
+            <param name="id">The id of the player we want to change the salary.</param>
+            <param name="salary">The value of the salary we want to change to.</param>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.GetOneCoach(System.Int32)">
+            <summary>
+            The implementation of the CRUD method to get one caoch.
+            </summary>
+            <param name="id">The Id of the caoch that we want to get.</param>
+            <returns>The coach that we wanted to get.</returns>
+        </member>
+        <member name="M:NBA.Logic.FinancialOfficerLogic.GetOnePlayer(System.Int32)">
+            <summary>
+            The implementation of the CRUD method to get one player.
+            </summary>
+            <param name="id">The Id of the player that we want to get.</param>
+            <returns>The plyer that we wanted to get.</returns>
+        </member>
+        <member name="T:NBA.Logic.IFinancialOfficerLogic">
+            <summary>
+            Declares the methods that we want to use related to the financial side of the NBA.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.IFinancialOfficerLogic.ChangePlayerSalary(System.Int32,System.Int32)">
+            <summary>
+            The declaration of the crud mehtod to update/change the salary of the player.
+            </summary>
+            <param name="id">The id of the player that we want to change the salary.</param>
+            <param name="salary">The value of the new salary.</param>
+        </member>
+        <member name="M:NBA.Logic.IFinancialOfficerLogic.ChangeCoachSalary(System.Int32,System.Int32)">
+            <summary>
+            The declaration of the crud method to update/change the salary of the coach.
+            </summary>
+            <param name="id">The id of the coach we want to change the salary.</param>
+            <param name="salary">The value of the new salary.</param>
+        </member>
+        <member name="M:NBA.Logic.IFinancialOfficerLogic.GetAvgPlayerSalaries">
+            <summary>
+            The declaration of the non-method to get teh average of the player's salary per conference.
+            </summary>
+            <returns>The list of the average player's salary per conference.</returns>
+        </member>
+        <member name="M:NBA.Logic.IFinancialOfficerLogic.GetAvgPlayerSalariesAsync">
+            <summary>
+            The declaration of the non-method to get the average of the player's salary per conference on Acyin version.
+            </summary>
+            <returns>The list of the average player's salary per conference.</returns>
+        </member>
+        <member name="M:NBA.Logic.IFinancialOfficerLogic.GetOnePlayer(System.Int32)">
+            <summary>
+            The declaration of the crud method to get one player.
+            </summary>
+            <param name="id">the id of the player that we want to get.</param>
+            <returns>the player that has the id reffered to in the argument.</returns>
+        </member>
+        <member name="M:NBA.Logic.IFinancialOfficerLogic.GetOneCoach(System.Int32)">
+            <summary>
+            The declaration of the  crud mehtod to get one coach from the list of coaches.
+            </summary>
+            <param name="id">The id of the coach that we want to get.</param>
+            <returns>The coach refferenced by the id as parameter.</returns>
+        </member>
+        <member name="T:NBA.Logic.INbaSecretaryLogic">
+            <summary>
+            Declares the methods that we want to use related to the financial side of the NBA.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.GetFGAveragesResults">
+            <summary>
+            The declaration of the NON-CRUD method to get the avg field goal from each team.
+            </summary>
+            <returns>The list of the average Field Goal of the team.</returns>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.GetFGAveragesResultsAsync">
+            <summary>
+            The declaration of the Async NON-CRUD method to get the avg field goal from each team on Async version.
+            </summary>
+            <returns>The Task list of the average Field Goal of the team.</returns>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.GetAllTeams">
+            <summary>
+            The declaration of the CRUD method to get all the teams from the list of teams.
+            </summary>
+            <returns>The list of all the teams.</returns>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.GetOneTeam(System.Int32)">
+            <summary>
+            The declaration of the CRUD method to get one team.
+            </summary>
+            <param name="id">the id of the team that we want to get.</param>
+            <returns>the team that has the id reffered to in the argument.</returns>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.InsertOneTeam(NBA.Data.Team)">
+            <summary>
+            The declaration of the CRUD method to add a new team to the list of coaches.
+            </summary>
+            <param name="team">Its the new team that we plan to inseert into the list of teams.</param>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.RemoveTeam(NBA.Data.Team)">
+            <summary>
+            The declaration of the CRUD method to remove a team to the list of coaches.
+            </summary>
+            <param name="team">The team that we plan to remove from the list of coaches.</param>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.ChangeNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            The declaration of the CRUD method to change the number of championships.
+            </summary>
+            <param name="id">The id of the team where we internd to perform the change.</param>
+            <param name="champs">The team that we plan to the number of championships won.</param>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.GetAvgPlayerHeight">
+            <summary>
+            The declaration of the NON-CRUD method to get the avg height from each team.
+            </summary>
+            <returns>The lsit of the average player's height per conference.</returns>
+        </member>
+        <member name="M:NBA.Logic.INbaSecretaryLogic.GetAvgPlayerHeightAsync">
+            <summary>
+            The declaration of the Async NON-CRUD method to get the avg height from each team on Async version.
+            </summary>
+            <returns>The Task list of the average Field Goal of the team.</returns>
+        </member>
+        <member name="T:NBA.Logic.ITeamManagerLogic">
+            <summary>
+            Declares the methods that we want to use.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.GetOnePlayer(System.Int32)">
+            <summary>
+            The declaration of the CRUD method to get one player.
+            </summary>
+            <param name="id">the id of the player that we want to get.</param>
+            <returns>the player that has the id reffered to in the argument.</returns>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.ChangePlayerFG(System.Int32,System.Single)">
+            <summary>
+            The declaration of the CRUD method to change the field goal of one player.
+            </summary>
+            <param name="playerId">The id of the player that we want to make changes in its FG.</param>
+            <param name="fg">The value of the new FG that we want to apply on the player.</param>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.GetAllPlayers">
+            <summary>
+            The declaration of the CRUD method to get all players.
+            </summary>
+            <returns>The list of all players.</returns>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.InsertPlayer(NBA.Data.Player)">
+            <summary>
+            The declaration of the CRUD method to add a new player to the list of players.
+            </summary>
+            <param name="player">Its the new player that we plan to inseert into the list of players.</param>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.RemovePlayer(NBA.Data.Player)">
+            <summary>
+            The declaration of the CRUD method to remove the player to the list of players.
+            </summary>
+            <param name="player">the player that we plan to remove from the list of players.</param>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.GetOneCoach(System.Int32)">
+            <summary>
+            The declaration of the CRUD method to get one coach from the list of coaches.
+            </summary>
+            <param name="id">The id of the coach that we want to get.</param>
+            <returns>The coach refferenced by the id as parameter.</returns>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.GetAllCoaches">
+            <summary>
+            The declaration of the CRUD method to get all the coaches from the list of coaches.
+            </summary>
+            <returns>The list of all the coaches.</returns>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.InsertCoach(NBA.Data.Coach)">
+            <summary>
+            The declaration of the CRUD method to add a new caoch to the list of coaches.
+            </summary>
+            <param name="coach">Its the new caoch that we plan to inseert into the list of coaches.</param>
+        </member>
+        <member name="M:NBA.Logic.ITeamManagerLogic.RemoveCoach(NBA.Data.Coach)">
+            <summary>
+            The declaration of the CRUD method to remove the coach to the list of coaches.
+            </summary>
+            <param name="coach">the caoch that we plan to remove from the list of coaches.</param>
+        </member>
+        <member name="T:NBA.Logic.NbaSecretaryLogic">
+            <summary>
+            Accesses and implements some of the CRUD and NON-CRUD methods from the repository.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.#ctor(NBA.Repository.ITeamRepository,NBA.Repository.IPLayerRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Logic.NbaSecretaryLogic"/> class.
+            Will allow us to call the methods of the Team repository by creating a ITeamRepository instance.
+            </summary>
+            <param name="teamRepo">The Team repository that will be used for the logic calculations.</param>
+            <param name="playerRepo">The PLayer repository that will be used for the logic calculations.</param>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.GetFGAveragesResults">
+            <summary>
+            The implementation of the mthod to get theaverage of the field goal of the team accordingly to the fg of each player.
+            </summary>
+            <returns>the list of the averages.</returns>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.ChangeNumberOfChampionships(System.Int32,System.Int32)">
+            <summary>
+            The implementation of the CRUD method to change the number of championships of a team.
+            </summary>
+            <param name="id">The id of the team that we  want to change its number of championshis.</param>
+            <param name="champs">The value of the new number of championships that we want to assign to the player.</param>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.GetAllTeams">
+            <summary>
+            The implementation of the CRUD method to get all the teams of the the entity type.
+            </summary>
+            <returns>The list of all teams.</returns>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.GetOneTeam(System.Int32)">
+            <summary>
+            The implementation of the CRUD method to get one team.
+            </summary>
+            <param name="id">The Id of the team that we want to get.</param>
+            <returns>The team that we wanted to get.</returns>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.InsertOneTeam(NBA.Data.Team)">
+            <summary>
+            The implementation of the CRUD method to add one team.
+            </summary>
+            <param name="team">The team that we want to add to the list of teams.</param>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.RemoveTeam(NBA.Data.Team)">
+            <summary>
+            The implementation of the CRUD method to remove one team.
+            </summary>
+            <param name="team">The team that we want to remove from the list of teams.</param>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.GetAvgPlayerHeight">
+            <summary>
+            the implementation of the NON-CRUD method to get the average player's height per team.
+            </summary>
+            <returns>The list of the average player's height per team.</returns>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.GetFGAveragesResultsAsync">
+            <summary>
+            The implementation of the Async NON-CRUD mthod to get the average of the field goal of the team accordingly to the fg of each player on Async version.
+            </summary>
+            <returns>The Task list of the averages of the field goal per team.</returns>
+        </member>
+        <member name="M:NBA.Logic.NbaSecretaryLogic.GetAvgPlayerHeightAsync">
+            <summary>
+            The implementation of the Async NON-CRUD method to get theaverage of the average height per team on Async version.
+            </summary>
+            <returns>the list of the average height per team.</returns>
+        </member>
+        <member name="T:NBA.Logic.TeamManagerLogic">
+            <summary>
+            Accesses and implements some of the CRUD and NON-CRUD methods from the repository.
+            </summary>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.#ctor(NBA.Repository.IPLayerRepository,NBA.Repository.ICoachRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Logic.TeamManagerLogic"/> class.
+            Will allow us to call the methods of the Player repository by creating a IPlayerRepository instance.
+            </summary>
+            <param name="playerRepo">The player repository that will be used for the logic calculations.</param>
+            <param name="coachRepo">The Coach repository that will be used for the logic calculations.</param>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.ChangePlayerFG(System.Int32,System.Single)">
+            <summary>
+            The implementation of the CRUD method to change the FG of the player.
+            </summary>
+            <param name="playerId">The id of the player that we  want to change its FG.</param>
+            <param name="fg">The value of the new fg that we want to assign to the player.</param>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.GetAllPlayers">
+            <summary>
+            The implementation of the CRUD method to get all the players of the the entity type.
+            </summary>
+            <returns>The list of all players.</returns>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.GetOnePlayer(System.Int32)">
+            <summary>
+            The implementation of the CRUD method to get one player.
+            </summary>
+            <param name="id">The Id of the player that we want to get.</param>
+            <returns>The plyer that we wanted to get.</returns>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.InsertPlayer(NBA.Data.Player)">
+            <summary>
+            The implementation of the CRUD method to add one player.
+            </summary>
+            <param name="player">The player that we want to add to the list of players.</param>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.RemovePlayer(NBA.Data.Player)">
+            <summary>
+            The implementation of the CRUD method to remove one player.
+            </summary>
+            <param name="player">The player that we want to remove from the list of players.</param>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.GetOneCoach(System.Int32)">
+            <summary>
+            The implementation of the CRUD method to get one caoch.
+            </summary>
+            <param name="id">The Id of the caoch that we want to get.</param>
+            <returns>The coach that we wanted to get.</returns>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.GetAllCoaches">
+            <summary>
+            The implementation of the CRUD method to  get all the coaches.
+            </summary>
+            <returns>The list of all the coaches that we wanted to get.</returns>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.InsertCoach(NBA.Data.Coach)">
+            <summary>
+            The implementation of the CRUD method to insert one coach to the list of coaches.
+            </summary>
+            <param name="coach">The coach that we want to add to the.</param>
+        </member>
+        <member name="M:NBA.Logic.TeamManagerLogic.RemoveCoach(NBA.Data.Coach)">
+            <summary>
+            The implementation of the CRUD method to remove one coach from the list of coaches.
+            </summary>
+            <param name="coach">The coach that we would like to remove from the list.</param>
+        </member>
+    </members>
+</doc>

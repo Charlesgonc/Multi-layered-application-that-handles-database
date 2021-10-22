@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBA.Data</name>
+    </assembly>
+    <members>
+        <member name="T:NBA.Data.Coach">
+            <summary>
+            Its the entity class Coach.
+            </summary>
+        </member>
+        <member name="M:NBA.Data.Coach.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Data.Coach"/> class.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachId">
+            <summary>
+            Gets or sets the Primary key id of the entity class Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachName">
+            <summary>
+            Gets or Sets the attribute Name for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachType">
+            <summary>
+            Gets or Sets the attribute Type for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachYearsOfExperience">
+            <summary>
+            Gets or Sets the attribute Years of experience for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachHireDate">
+            <summary>
+            Gets or Sets the attribute Hire date for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachSalary">
+            <summary>
+            Gets or Sets the attribute Salary for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachAge">
+            <summary>
+            Gets or Sets the attribute age for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.CoachEmail">
+            <summary>
+            Gets or Sets the attribute eamil for the Coach.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Coach.ConnCoachTeam">
+            <summary>
+            Gets the collection of Teams where the entity caoch works for.
+            </summary>
+        </member>
+        <member name="T:NBA.Data.ConnCoachTeam">
+            <summary>
+            The connectionn table between the Coach and the Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.ConnCoachTeam.ConnId">
+            <summary>
+            Gets or sets the Primary key id of the Connection class between Coach and Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.ConnCoachTeam.ConnCoach">
+            <summary>
+            Gets or Sets the attribute coach for the connection table.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.ConnCoachTeam.ConnTeam">
+            <summary>
+            Gets or Sets the attribute Team for the connection table.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.ConnCoachTeam.ConnCoachNavigation">
+            <summary>
+            Gets or Sets the navigational property of the Coach for the connector table.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.ConnCoachTeam.ConnTeamNavigation">
+            <summary>
+            Gets or Sets the navigational property of the Team for the connector table.
+            </summary>
+        </member>
+        <member name="T:NBA.Data.NBAdbContext">
+            <summary>
+            The descendant class from the DbContext resposible to create and fill the database with content.
+            </summary>
+        </member>
+        <member name="M:NBA.Data.NBAdbContext.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Data.NBAdbContext"/> class.
+            </summary>
+        </member>
+        <member name="M:NBA.Data.NBAdbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{NBA.Data.NBAdbContext})">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Data.NBAdbContext"/> class.
+            </summary>
+            <param name="options">ensures that the Db is indeed creted(?).</param>
+        </member>
+        <member name="P:NBA.Data.NBAdbContext.Coach">
+            <summary>
+            Gets or Sets the Coach DbSet.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.NBAdbContext.ConnCoachTeam">
+            <summary>
+            Gets or Sets the Connector table between the coach and the taem DbSet.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.NBAdbContext.Player">
+            <summary>
+            Gets or Sets the Player DbSet.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.NBAdbContext.Team">
+            <summary>
+            Gets or Sets the Team DbSet.
+            </summary>
+        </member>
+        <member name="M:NBA.Data.NBAdbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Overriden method resposiblle for stablishing the connection with the database.
+            -The proxies allow the lazy loading.
+            -The tools allow us to Drop-Database, Get - DbContext.
+            -The sql server allows us to use the sql server.
+            </summary>
+            <param name="optionsBuilder">Responsilble to check and set the connection if there isnt one already.</param>
+        </member>
+        <member name="M:NBA.Data.NBAdbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Overriden  method responsible for setting up the table itself.
+            </summary>
+            <param name="modelBuilder">Responsible to build the tables using fluent API.</param>
+        </member>
+        <member name="T:NBA.Data.Player">
+            <summary>
+            its the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerId">
+            <summary>
+            Gets or sets the Primary key id of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerName">
+            <summary>
+            Gets or sets the attribute Name of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerAge">
+            <summary>
+            Gets or sets the attribute Age of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerPosition">
+            <summary>
+            Gets or sets the attribute Position of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerHeight">
+            <summary>
+            Gets or sets the attribute Height of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerWeight">
+            <summary>
+            Gets or sets the attribute Weight of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerSalary">
+            <summary>
+            Gets or sets the attribute Salary of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerFieldGoal">
+            <summary>
+            Gets or sets the attribute Field Goal of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerDraftDate">
+            <summary>
+            Gets or sets the attribute Draft Date of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerTeam">
+            <summary>
+            Gets or sets the foreign key Team of the entity class Player.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Player.PlayerTeamNavigation">
+            <summary>
+            Gets or sets and Sets the Player navigational properties used for the creation of the database using fluent API.
+            </summary>
+        </member>
+        <member name="T:NBA.Data.Team">
+            <summary>
+            Its the entity class Team.
+            </summary>
+        </member>
+        <member name="M:NBA.Data.Team.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Data.Team"/> class.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.TeamId">
+            <summary>
+            Gets or sets the Primary key id of the entity class Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.TeamName">
+            <summary>
+            Gets or Sets the attribute Name for the Entity class Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.TeamConference">
+            <summary>
+            Gets or Sets the attribute Team Conference for the Entity class Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.TeamFoundationDate">
+            <summary>
+            Gets or Sets the attribute Team Foundation for the Entity class Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.TeamChampionshipsWon">
+            <summary>
+            Gets or Sets the attribute Championships won for the Entity class Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.TeamArena">
+            <summary>
+            Gets or Sets the attribute Arena for the Entity class Team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.ConnCoachTeam">
+            <summary>
+            Gets the collection of the coaches that work for the team.
+            </summary>
+        </member>
+        <member name="P:NBA.Data.Team.Player">
+            <summary>
+            Gets the collection of the Players that play for the team.
+            </summary>
+        </member>
+    </members>
+</doc>

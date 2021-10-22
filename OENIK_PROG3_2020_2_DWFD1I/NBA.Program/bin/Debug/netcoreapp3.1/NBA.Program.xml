@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBA.Program</name>
+    </assembly>
+    <members>
+        <member name="T:NBA.Program.MyProgram">
+            <summary>
+            Main Class of the Console App.
+            </summary>
+            just added the *internal* access modifier.
+        </member>
+        <member name="M:NBA.Program.MyProgram.Main">
+            <summary>
+            The main class of the one and only console application.
+            </summary>
+        </member>
+    </members>
+</doc>

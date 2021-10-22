@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBA.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:NBA.Repository.CoachRepository">
+            <summary>
+            This class implements the non generic CRUD methods specific for the entity Caoch.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.CoachRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Repository.CoachRepository"/> class.
+            gets the DbCOntext that allows us to work on the database.
+            </summary>
+            <param name="ctx">its the dbcontext present on the mother class.</param>
+        </member>
+        <member name="M:NBA.Repository.CoachRepository.GetOne(System.Int32)">
+            <summary>
+            Implementation of the CRUD method to get one coach.
+            We will execute the 2 method calls with a single query statement.
+            </summary>
+            <param name="id">is the id of the Coach that we want to find.</param>
+            <returns>a single Coach.</returns>
+        </member>
+        <member name="M:NBA.Repository.CoachRepository.ChangeCoachSalary(System.Int32,System.Int32)">
+            <summary>
+            The implementation of the non generic CRUD method  to update the entity Coach.
+            </summary>
+            <param name="id">the id of the coach that we wish to make the update.</param>
+            <param name="newSalary">the value of the salary that we wish to change for the coach.</param>
+        </member>
+        <member name="T:NBA.Repository.ICoachRepository">
+            <summary>
+            The interface that declarates the non generic CRUD method-update, specific for the entity Coach.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.ICoachRepository.ChangeCoachSalary(System.Int32,System.Int32)">
+            <summary>
+            The declaration of the non generic CRUD method  to update the entity Coach.
+            </summary>
+            <param name="id">The Id of the Coach that we wish to make updates on.</param>
+            <param name="newSalary">The new value the salary we wish to modify to.</param>
+        </member>
+        <member name="T:NBA.Repository.IPLayerRepository">
+            <summary>
+            The interface that declarates the non generic CRUD method-update, specific for the entity PLayer.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.IPLayerRepository.ChangePlayerFieldGoal(System.Int32,System.Single)">
+            <summary>
+            The declaration of the non generic CRUD method  to update the entity PLayer.
+            </summary>
+            <param name="id">The Id of the Player that we wish to his field goal.</param>
+            <param name="newFieldGoal">The new value of the PLayer field goal that we wish to modify to.</param>
+        </member>
+        <member name="M:NBA.Repository.IPLayerRepository.ChangePlayerSalary(System.Int32,System.Int32)">
+            <summary>
+            The declaration of the non generic CRUD method  to update the entity PLayer.
+            </summary>
+            <param name="id">The Id of the Player that we wish to cahnge his salary.</param>
+            <param name="salary">The value of the new salary.</param>
+        </member>
+        <member name="T:NBA.Repository.IRepository`1">
+            <summary>
+            Base Interface of the Iresopitory which has the declaration of all CRUD methods(generic ones).
+            </summary>
+            <typeparam name="T">The entity classthat we want to work on.</typeparam>
+        </member>
+        <member name="M:NBA.Repository.IRepository`1.GetOne(System.Int32)">
+            <summary>
+            Declaration of the CRUD method to get a specific element from a given entity.
+            </summary>
+            <param name="id">The id of the entity that we wish to get.</param>
+            <returns>The entity the specific entity.</returns>
+        </member>
+        <member name="M:NBA.Repository.IRepository`1.GetAll">
+            <summary>
+            Declaration of the CRUD method to get a all the elements from a given entity.
+            </summary>
+            <returns>All the enetities of the given type.</returns>
+        </member>
+        <member name="M:NBA.Repository.IRepository`1.Insert(`0)">
+            <summary>
+            Declaration of the CRUD method to insert an entity.
+            </summary>
+            <param name="entity"> The entity that we wish to insert. </param>
+        </member>
+        <member name="M:NBA.Repository.IRepository`1.Remove(`0)">
+            <summary>
+            Declaration of the CRUD method to remove an entity.
+            </summary>
+            <param name="entity">the id of the entity that we wish to remove.</param>
+        </member>
+        <member name="T:NBA.Repository.ITeamRepository">
+            <summary>
+            The interface that declarates the non generic CRUD method-update, specific for the entity Team.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.ITeamRepository.ChangeTeamNumOfChamps(System.Int32,System.Int32)">
+            <summary>
+            The declaration of the non generic CRUD method  to update the entity Team.
+            </summary>
+            <param name="id">The Id of the Team that we wish to make updates on.</param>
+            <param name="newNumber">the new number of campionships won by the team.</param>
+        </member>
+        <member name="T:NBA.Repository.PlayerRepository">
+            <summary>
+            This class implements the non generic CRUD methods specific for the entity Player.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.PlayerRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Repository.PlayerRepository"/> class.
+            gets the DbCOntext that allows us to work on the database.
+            </summary>
+            <param name="ctx">its the dbcontext present on the mother class.</param>
+        </member>
+        <member name="M:NBA.Repository.PlayerRepository.GetOne(System.Int32)">
+            <summary>
+            Implementation of the CRUD method to get one player.
+            We will execute the 2 method calls with a single query statement.
+            </summary>
+            <param name="id">is the id of the Player that we want to find.</param>
+            <returns>a single Player.</returns>
+        </member>
+        <member name="M:NBA.Repository.PlayerRepository.ChangePlayerFieldGoal(System.Int32,System.Single)">
+            <summary>
+            The implementation of the non generic CRUD method  to update the entity Player.
+            </summary>
+            <param name="id">The id of  the player tha we wish to make the update.</param>
+            <param name="newFieldGoal">The value of the new fiel goal that we wish to assign to the player.</param>
+        </member>
+        <member name="M:NBA.Repository.PlayerRepository.ChangePlayerSalary(System.Int32,System.Int32)">
+            <summary>
+            The implementation of the non generic CRUD method  to update the entity Player.
+            </summary>
+            <param name="id">The Id of the Player that we wish to cahnge his salary.</param>
+            <param name="salary">The value of the new salary.</param>
+        </member>
+        <member name="T:NBA.Repository.Repo`1">
+            <summary>
+            The base abstract class that implements the generic CRUD methods.
+            </summary>
+            <typeparam name="T">The entity class that we wich to work on.</typeparam>
+        </member>
+        <member name="F:NBA.Repository.Repo`1.ctx">
+            <summary>
+            the DbContext instance to have access to the database.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.Repo`1.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Repository.Repo`1"/> class.
+            </summary>
+            <param name="ctx">The DbContext of the project.</param>
+        </member>
+        <member name="P:NBA.Repository.Repo`1.Ctx">
+            <summary>
+            Gets or sets to access  and modify the private DbContext.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.Repo`1.GetAll">
+            <summary>
+            Implementation of the CRUD method on a generic way to get a all the elements from a given entity.
+            </summary>
+            <returns>All the enetities of the given type.</returns>
+        </member>
+        <member name="M:NBA.Repository.Repo`1.GetOne(System.Int32)">
+            <summary>
+            Declaration of the absttract class to get one T entity.
+            </summary>
+            <param name="id">The id of the entity that we wish to get.</param>
+            <returns>The entity the specific entity.</returns>
+        </member>
+        <member name="M:NBA.Repository.Repo`1.Insert(`0)">
+            <summary>
+            Implementation of the CRUD method on a generic way to insert an entity.
+            </summary>
+            <param name="entity">The entity that we wish to insert.</param>
+        </member>
+        <member name="M:NBA.Repository.Repo`1.Remove(`0)">
+            <summary>
+            Implementation of the CRUD method on a generic to remove an entity.
+            </summary>
+            <param name="entity">zhzz.</param>
+        </member>
+        <member name="T:NBA.Repository.TeamRepository">
+            <summary>
+            This class implements the non generic CRUD methods specific for the entity Team.
+            </summary>
+        </member>
+        <member name="M:NBA.Repository.TeamRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBA.Repository.TeamRepository"/> class.
+            gets the DbCOntext that allows us to work on the database.
+            </summary>
+            <param name="ctx">its the dbcontext present on the mother class.</param>
+        </member>
+        <member name="M:NBA.Repository.TeamRepository.GetOne(System.Int32)">
+            <summary>
+            Implementation of the CRUD method to get one team.
+            We will execute the 2 method calls with a single query statement.
+            </summary>
+            <param name="id">is the id of the Team that we want to find.</param>
+            <returns>a single Team.</returns>
+        </member>
+        <member name="M:NBA.Repository.TeamRepository.ChangeTeamNumOfChamps(System.Int32,System.Int32)">
+            <summary>
+            Implements the non generic CRUD method decalred on the mother interface.
+            </summary>
+            <param name="id">The id of the Team that we wish to make the update.</param>
+            <param name="newNumber">The new value of the championships won by this team.</param>
+        </member>
+    </members>
+</doc>

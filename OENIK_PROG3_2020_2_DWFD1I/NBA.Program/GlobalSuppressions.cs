@@ -1,0 +1,37 @@
+﻿// <copyright file="GlobalSuppressions.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+using System.Diagnostics.CodeAnalysis;
+
+[assembly: SuppressMessage("Reliability", "CA2000:Dispose objects before losing scope", Justification = "<It wasnt a basic rule warning>", Scope = "member", Target = "~M:NBA.Program.MyProgram.Main")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wasnt a basic rule warning>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOnePlayer(NBA.Logic.TeamFgAvgLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wasnt a basic rule warning>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOnePlayer(NBA.Logic.TeamFgAvgLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wasnt a basic rule warning>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOnePlayer(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wasnt a basic rule warning>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOnePlayer(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wasnt a basic rule warning-for ahving consoleWriteLine?>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertPlayer(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wasnt a basic rule warning-for ahving consoleWriteLine?>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertPlayer(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.RemovePlayer(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.RemovePlayer(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertCoach(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertCoach(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.RemoveCoach(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.RemoveCoach(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOneCoach(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOneCoach(NBA.Logic.TeamManagerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.ChangeCoachSalary(NBA.Logic.FinancialOfficerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.ChangeCoachSalary(NBA.Logic.FinancialOfficerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.ChangePlayerSalary(NBA.Logic.FinancialOfficerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.ChangePlayerSalary(NBA.Logic.FinancialOfficerLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOneTeam(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOneTeam(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertTeam(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertTeam(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.RemoveTeam(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.RemoveTeam(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.ChangeNumChamps(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wanst a basic rule>", Scope = "member", Target = "~M:NBA.Program.MyProgram.ChangeNumChamps(NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wasnt a basic rule.>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertPlayer(NBA.Logic.TeamManagerLogic,NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wasnt a basic rule.>", Scope = "member", Target = "~M:NBA.Program.MyProgram.InsertPlayer(NBA.Logic.TeamManagerLogic,NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1303:Do not pass literals as localized parameters", Justification = "<It wasnt a basic rule.>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOnePlayer(NBA.Logic.TeamManagerLogic,NBA.Logic.NbaSecretaryLogic)")]
+[assembly: SuppressMessage("Globalization", "CA1305:Specify IFormatProvider", Justification = "<It wasnt a basic rule.>", Scope = "member", Target = "~M:NBA.Program.MyProgram.GetOnePlayer(NBA.Logic.TeamManagerLogic,NBA.Logic.NbaSecretaryLogic)")]

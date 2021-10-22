@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBA.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:NBA.Test.FinancialOfficerLogicTests">
+            <summary>
+            The testing class responsible for testing the operations implemented on the business logic FinancialLogic.
+            </summary>
+        </member>
+        <member name="M:NBA.Test.FinancialOfficerLogicTests.TestCoachSalChange">
+            <summary>
+            The CRUD testing for the update of one coach.
+            </summary>
+        </member>
+        <member name="M:NBA.Test.FinancialOfficerLogicTests.TestGetAvgPlayerSalary">
+            <summary>
+            The NON-CRUD testing to get the average salary of each conference.
+            </summary>
+        </member>
+        <member name="T:NBA.Tests.NbaSecretaryLogicTests">
+            <summary>
+            The testing class responsible for testing the operations implemented on the business logic NbaSecretary.
+            </summary>
+        </member>
+        <member name="M:NBA.Tests.NbaSecretaryLogicTests.TestTeamAdd">
+            <summary>
+            The CRUD testing for the insertion/adding of one Team.
+            </summary>
+        </member>
+        <member name="M:NBA.Tests.NbaSecretaryLogicTests.TestRemoveTeam">
+            <summary>
+            The CRUD testing for the deletion/Remotion of one Team.
+            </summary>
+        </member>
+        <member name="M:NBA.Tests.NbaSecretaryLogicTests.TestGetFGAveragesResults">
+            <summary>
+            The NON-CRUD testing for the obtension of the averages of the field goal from each Team.
+            </summary>
+        </member>
+        <member name="M:NBA.Tests.NbaSecretaryLogicTests.TestAvgPlayerHeight">
+            <summary>
+            The NON-CRUD testing for the obtension of the averages of the height from each Team.
+            </summary>
+        </member>
+        <member name="T:NBA.Tests.TeamManagerLogicTests">
+            <summary>
+            The testing class responsible for testing the operations implemented on the business logic TeamMAnager.
+            </summary>
+        </member>
+        <member name="M:NBA.Tests.TeamManagerLogicTests.TestGetAllPlayers">
+            <summary>
+            The CRUD testing for get all players method.
+            </summary>
+        </member>
+        <member name="M:NBA.Tests.TeamManagerLogicTests.TestGetOnePlayer">
+            <summary>
+            The CRUD testing for get one player method.
+            </summary>
+        </member>
+    </members>
+</doc>
